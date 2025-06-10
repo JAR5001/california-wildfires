@@ -1,0 +1,96 @@
+﻿name,county,latitude,longitude,year
+Valley,San Diego,32.7656,-116.6927,2020
+Southern,San Diego,32.9875,-116.4434,2021
+Fairview,Riverside,33.7171,-116.8932,2022
+Silverado,Orange,33.7361,-117.6572,2020
+Bond,Orange,33.7438,-117.675,2020
+Blue Ridge,Orange,33.8773,-117.6751,2020
+Snow,Riverside,33.8883,-116.6839,2020
+Rabbit,Riverside,33.8895,-117.0709,2023
+Apple,Riverside,33.9914,-116.9617,2020
+Lost Lake,Riverside,34.0108,-114.4842,2022
+El Dorado,San Bernardino,34.0806,-116.9867,2020
+Bobcat,Los Angeles,34.241,-117.868,2020
+Maria,Ventura,34.3022,-118.9971,2019
+Saddle Ridge,Los Angeles,34.3299,-118.4816,2019
+Route,Los Angeles,34.5255,-118.6479,2022
+Alisal,Santa Barbara,34.553,-120.136,2021
+Lake,Los Angeles,34.679,-118.452,2020
+Plant,Santa Barbara,34.919,-119.7333,2023
+York,San Bernardino,35.1919,-115.3174,2023
+Dome,San Bernardino,35.301,-115.598,2020
+Stagecoach,Kern,35.4304,-118.5336,2020
+Almond,Kern,35.6147,-119.8358,2023
+French,Kern,35.687,-118.55,2021
+Windy,Tulare,36.058,-118.625,2021
+Mineral,Fresno,36.0949,-120.5219,2020
+Dolan,Monterey,36.123,-121.602,2020
+Castle,Tulare,36.255,-118.497,2020
+Walkers,Tulare,36.268,-118.555,2021
+Rattlesnake,Tulare,36.42,-118.448,2020
+Carmel,Monterey,36.4463,-121.6818,2020
+Knp Complex,Tulare,36.567,-118.811,2021
+River 2020,Monterey,36.6024,-121.6216,2020
+Taboose,Inyo,37.034,-118.345,2019
+Crews,Santa Clara,37.0348,-121.5015,2020
+Czu Lightning Complex,Santa Cruz,37.1716,-122.2228,2020
+Creek,Fresno,37.1915,-119.2612,2020
+River 2021,Mariposa,37.3508,-119.8698,2021
+Scu Complex,Stanislaus,37.4394,-121.3044,2020
+Oak,Mariposa,37.5509,-119.9235,2022
+Briceburg,Mariposa,37.6046,-119.9661,2019
+Red,Mariposa,37.661,-119.471,2022
+Bluejay,Mariposa,37.812,-119.647,2020
+Springs,Mono,37.826,-118.872,2019
+Quarry,Tuolumne,38.061,-119.9917,2023
+Walbridge Lnulc2,Sonoma,38.4819,-122.1486,2020
+Hennessey Lnulc1,Napa,38.4819,-122.1486,2020
+Mountain View,Mono,38.515,-119.465,2020
+Grant Fire,Sacramento,38.521,-121.2019,2020
+Glass,Napa,38.563,-122.4975,2020
+Slink,Mono,38.568,-119.568,2020
+Caldor,El Dorado,38.586,-120.5378,2021
+Kincade,Sonoma,38.7925,-122.7801,2019
+Mosquito 2022,Placer,39.0059,-120.7447,2022
+Loyalton,Sierra,39.7024,-120.1435,2020
+August Complex,Glenn,39.776,-122.673,2020
+Baccarat,Lassen,39.7842,-120.0099,2020
+Sugar,Plumas,39.832,-120.3415,2021
+North Complex,Plumas,39.85,-120.96,2020
+Dixie,Butte,39.8713,-121.3894,2021
+Walker,Plumas,40.0614,-120.6806,2019
+South,Tehama,40.109,-122.789,2019
+Red Bank,Tehama,40.12,-122.64,2019
+Sheep,Plumas,40.274,-120.757,2020
+Mcfarland,Trinity,40.35,-123.034,2021
+North,Lassen,40.3676,-120.4481,2020
+Hog,Lassen,40.4209,-120.8638,2020
+Zogg,Shasta,40.5393,-122.5666,2020
+Fawn,Shasta,40.7298,-122.3202,2021
+Monument,Trinity,40.752,-123.337,2021
+Salt,Shasta,40.8605,-122.349,2021
+Ammon 2022 Srflc1,Humboldt,40.927,-123.5862,2022
+Campbell 2022 Srflc2,Trinity,40.927,-123.5862,2022
+Pearch 2023 Srflc1,Humboldt,41.0172,-123.6112,2023
+Mosquito 2023 Srflc2,Humboldt,41.0172,-123.6112,2023
+W-5 Cold Springs,Lassen,41.029,-120.281,2020
+Gold,Lassen,41.1104,-120.9233,2020
+Red Salmon Complex,Humboldt,41.185,-123.433,2020
+River Complex,Siskiyou,41.389,-123.057,2021
+Mountain,Siskiyou,41.459,-122.6275,2022
+Lava,Siskiyou,41.459,-122.329,2021
+Antelope,Siskiyou,41.529,-121.9155,2021
+Mccash,Siskiyou,41.564,-123.404,2021
+Tennant,Siskiyou,41.6652,-122.0543,2021
+Caldwell,Modoc,41.699,-121.477,2020
+Lone,Modoc,41.748,-121.056,2019
+Slater,Siskiyou,41.766,-123.375,2020
+Head 2023 Hcc1,Siskiyou,41.7776,-123.0451,2023
+Ufish 2023 Hcc3,Siskiyou,41.7776,-123.0451,2023
+Elliot 2023 Hcc2,Siskiyou,41.7776,-123.0451,2023
+Tucker,Modoc,41.7959,-121.2603,2019
+Mckinney,Siskiyou,41.8338,-122.8948,2022
+Yeti,Siskiyou,41.868,-123.278,2022
+Barnes,Modoc,41.8712,-120.2912,2022
+Devil,Siskiyou,41.915,-123.268,2020
+Kelly 2023 Src1,Del Norte,41.9583,-123.8684,2023

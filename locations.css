@@ -1,0 +1,15 @@
+/* CSS FOR LOCATIONS PAGE */
+
+div#jennifer {height: 92vh;
+    display: flex;
+    justify-content: center;}
+
+div#side {order: 2;
+    padding: 20px;
+    padding-top: 0px;
+    margin-left: 10px;
+    min-width: 200px;}
+
+/* Gridline Axes */
+    #xGridGroup .domain, #yGridGroup .domain {display: none}
+    #xGridGroup text, #yGridGroup text {display: none;}
