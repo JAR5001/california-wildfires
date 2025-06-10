@@ -19,7 +19,7 @@ body {
 
 @font-face { /* Loading an external font */
         font-family: headerFont;
-        src: url(fonts/algerian_regular.ttf);
+        src: url(algerian_regular.ttf);
 } 
 
 header {
