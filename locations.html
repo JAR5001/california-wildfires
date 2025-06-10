@@ -1,0 +1,72 @@
+﻿<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <meta name="author" content="Jennifer Roberts" />
+    <script src="https://cdn.jsdelivr.net/npm/d3@7"></script>
+    <link rel="stylesheet" type="text/css" href="style.css" /> <!-- Main style sheet -->
+    <link rel="stylesheet" type="text/css" href="jennifer/locations.css" /> <!-- Style sheet for this page-->
+    <title>Locations</title>
+    
+</head>
+<body>
+    <header><a><img src="graphics/california.png" />California Wildfires</a></header>
+
+    <!-- Original website was a team project, so had multiple pages.
+    <nav>
+        <ul>
+            <li><a href="locations.html" id="current">LOCATIONS</a></li> 'current' changes the background colour
+            <li><a href="structural_impact.html">STRUCTURAL IMPACT</a></li>
+            <li><a href="human_impact.html">HUMAN IMPACT</a></li>
+            <li><a href="agencies.html">AGENCIES</a></li>
+        </ul>
+    </nav>
+    -->
+
+    <main>
+    <h1>Locations of Major Fires</h1>
+    
+    <div id="jennifer"> <!-- container div -->
+    <script src="jennifer/locations.js"></script> <!-- map script-->
+
+    <!-- MAP OPTIONS DIV-->
+    <!-- I tried this with D3, but it's difficult to get the checkboxes to display before the labels because 
+     D3 nests them -->
+
+    <div id="side">
+        <h2>Map Options</h2>
+
+        <!-- Years dropdown -->
+        <label for='years'>Year</label>
+        <select id='years' name='years'>
+            <option value='all' selected>All Years</option>
+            <option value='2023'>2023</option>
+            <option value='2022'>2022</option>
+            <option value='2021'>2021</option>
+            <option value='2020'>2020</option>
+            <option value='2019'>2019</option>
+        </select>
+        <script>
+            d3.select('#years').on('change', updateYear); // Just to demonstrate how it can be done with D3.
+        </script>
+        <br /><br />
+
+        <!-- Checkboxes -->
+        Untick to hide:<br />
+        <input type='checkbox' id='landmarksBox' onClick="hide_or_not('landmarksBox', '#landmarksGroup')" checked />
+        <label for='landmarksBox'>Major Landmarks</label><br />
+        <input type='checkbox' id='countiesBox'onClick="countyLines()" checked />
+        <label for='countiesBox'>County Lines</label><br />
+        <input type='checkbox' id='classifyBox' onClick="classify()" checked />
+        <label for='classifyBox'>County Classifications</label><br />
+        <input type='checkbox' id='axesBox' onClick="hide_or_not('axesBox', '#axesGroup'); gridOptions()" />
+        <label for='axesBox'>Axes</label><br />
+        &nbsp;&nbsp;&nbsp;<input type ='checkbox' id='xGridBox' onClick="hide_or_not('xGridBox', '#xGridGroup')" disabled />
+        <label for='xGridBox'>Vertical Gridlines</label><br />
+        &nbsp;&nbsp;&nbsp;<input type='checkbox' id='yGridBox' onClick="hide_or_not('yGridBox', '#yGridGroup')" disabled />
+        <label for='yGridBox'>Horizontal Gridlines</label>
+    </div>
+    </div>
+</main>
+</body>
+</html>
